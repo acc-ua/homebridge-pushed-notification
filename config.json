@@ -1,0 +1,20 @@
+{
+  "bridge": {
+    "name": "Homebridge",
+    "username": "00:00:AA:BB:CC:DD",
+    "port": 51826,
+    "pin": "031-45-154"
+  },
+
+  "accessories": [
+    {
+      "accessory": "Notification",
+      "name": "Проверка Сообщенія",
+      "app_key": "kX1hrDUyqcl3YQQG5TYi",
+      "app_secret": "jFx61kFR9ET7l6syHmWfVN4SqroX3pd8GmPPg8KzJrlGEWG01d8t1LUJdBoLaUUt",
+      "app_name": "Дом", 
+      "message": "Дом", 
+      "mute_notification_interval_in_sec": 60 
+    }
+  ]
+}

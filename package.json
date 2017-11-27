@@ -1,0 +1,25 @@
+{
+  "name": "homebridge-pushed-notification",
+  "version": "0.0.1", 
+  "description": "GetPushed notification plugins for HomeBridge(https://github.com/nfarina/homebridge).",
+  "license": "ISC",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "author": "Acc-ua",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acc-ua/homebridge-pushed-notification"
+  },
+  "bugs": {
+    "url": "https://github.com/acc-ua/hhomebridge-pushed-notification/issues"
+  },
+  "dependencies": {
+    "request": "^2.65.0"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.4.1"
+  }
+}
+
