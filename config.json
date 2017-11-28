@@ -8,12 +8,12 @@
 
   "accessories": [
     {
-      "accessory": "Notification",
-      "name": "Проверка Сообщенія",
-      "app_key": "kX1hrDUyqcl3YQQG5TYi",
-      "app_secret": "jFx61kFR9ET7l6syHmWfVN4SqroX3pd8GmPPg8KzJrlGEWG01d8t1LUJdBoLaUUt",
-      "app_name": "Дом", 
-      "message": "Дом", 
+      "accessory": "GetPushedNotification",
+      "name": "Test Message",
+      "app_key": "kXasdascl3YQQG5TYi",
+      "app_secret": "jFsdasdqroX3pd8GmPPg8KzJrlGEWG01d8t1LUJdBoLaUUt",
+      "app_name": "Home", 
+      "message": "This is test message", 
       "mute_notification_interval_in_sec": 60 
     }
   ]
