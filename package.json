@@ -12,7 +12,7 @@
     "url": "https://github.com/acc-ua/homebridge-pushed-notification"
   },
   "bugs": {
-    "url": "https://github.com/acc-ua/hhomebridge-pushed-notification/issues"
+    "url": "https://github.com/acc-ua/homebridge-pushed-notification/issues"
   },
   "dependencies": {
     "request": "^2.65.0"
