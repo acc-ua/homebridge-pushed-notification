@@ -4,7 +4,9 @@ Create accessories used to send GetPushed (https://pushed.co) push notifications
 The Homebridge Notification accessory is a simple switch which sends a notification to GetPushed whenever it is toggled On. The Notification accessory is meant to be used in conjunction with HomeKit Automation. A user can program an automation using the Home app to send a notification whenever an event/state (or combination of) occurs. This is done by programming the Automation to set the Notfication accessory state to On. Currently, the Home application only supports native notification from sensors such as Motion Detectors, Presense Sensors, Door Locks, etc.. This Homebridge accessory bridges the gap and allows any HomeKit state to trigger a notification. For example, you can send a notification if the temperature in your home is below a threshold but the thermostat is currently turned off. 
 
 ## Installation
-[![npm version](https://badge.fury.io/js/homebridge-mi-aqara.svg)](https://www.npmjs.com/package/homebridge-pushed-notification)
+[![npm version](https://badge.fury.io/js/homebridge-pushed-notification.svg)](https://www.npmjs.com/package/homebridge-pushed-notification)
+
+npm install -g homebridge-pushed-notification
 
 ## GetPushed Configuration
 
@@ -23,3 +25,17 @@ The message which is to be sent to IFTTT if the accessory is toggled On.
 ### "mute_notification_interval_in_sec"
 This value specifies how long notification should be muted after a trigger. This is to prevent notification flooding if the Automation which triggered the notification is repeated.
 
+
+## Sample config.json code
+
+    "accessories": [
+    {
+      "accessory": "GetPushedNotification",
+      "name": "Test Message",
+      "app_key": "XXXXXXXXXXXXX",
+      "app_secret": "roX3pd8GmPPg8KzJrlGEWG01d8t1LUJdBoLaUUt",
+      "app_name": "Home", 
+      "message": "This is test message", 
+      "mute_notification_interval_in_sec": 60 
+    }
+  ]
