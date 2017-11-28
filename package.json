@@ -1,6 +1,6 @@
 {
   "name": "homebridge-pushed-notification",
-  "version": "0.0.1", 
+  "version": "0.0.2",
   "description": "GetPushed notification plugins for HomeBridge(https://github.com/nfarina/homebridge).",
   "license": "ISC",
   "keywords": [
@@ -22,4 +22,3 @@
     "homebridge": ">=0.4.1"
   }
 }
-
