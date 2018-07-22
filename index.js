@@ -65,7 +65,7 @@ PushedNotificationAccessory.prototype =
 
     if (this.stateValue == 1) {
       // 'that' is used inside timeout functions
-      that = this;
+      var that = this;
 
       // Clear the On value after 250 milliseconds 
       setTimeout(function() {that.stateValue = 0; that.btnService.setCharacteristic(Characteristic.On, 0) }, 500 );
